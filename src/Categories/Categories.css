@@ -1,0 +1,10 @@
+.categories{
+    width: 20%;
+    height: calc(100vh - 96px);
+    /* background-color: rgb(249, 143, 201); */
+}
+#filled-hidden-label-small{
+    width: 3rem !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}

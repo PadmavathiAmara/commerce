@@ -1,0 +1,132 @@
+.Header{
+    /* background-color: rgb(255, 131, 151); */
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+} 
+
+.logo{
+    width: 20%;
+    margin-left: 4rem;
+}
+
+.searchBar{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search{
+    width: 40rem;
+    font-size: 2rem;
+}
+
+.cartDiv{
+    margin-right: 7rem;
+}
+
+.css-1c32n2y-MuiBadge-root{
+    width: 3rem !important;
+}
+
+.cartSymbol{
+    width: 2rem !important;
+    height: 4rem !important;
+}
+
+.cartHeader{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: royalblue;
+    font-weight: 500;
+}
+
+.scrollDiv{
+    overflow: auto;
+    height: 25rem;
+}
+
+.cartBody{
+    width: 100%;
+    display: flex;
+    /* overflow: auto; */
+    position: relative;
+}
+
+.prodImgDiv{
+    width: 8rem;
+    height: 8.5rem;
+    margin: 1rem;
+}
+
+.prodImg{
+    width: 8rem;
+    height: 8.5rem;
+}
+
+.cartButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns{
+    width: 3rem;
+    height: 2rem;
+}
+
+.cartRight{
+    width: 20rem;
+}
+
+.textDiv{
+    height: 9.35rem;
+}
+
+.removebtn{
+    width: 20rem;
+    height: 2rem;
+    /* margin-top: 30px; */
+    text-align: center;
+}
+
+.removebtnDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.buynowBtn{
+    height: 2.5rem;
+    margin-top: 1.5rem !important;
+}
+.cartFooter{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+.css-l32bcq{
+    padding: 6px !important;
+    height: 500px !important;
+    width: 500px !important;
+}
+
+.emptyCartImg{
+    width: 20rem;
+    height: 18rem;
+}
+
+.emptyCart{
+    display: flex;
+    height: 26rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
